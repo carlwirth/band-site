@@ -1,2 +1,3 @@
 # band-site
-Front End Web Development fictional band site project for Summer 2019 with Albany Can Code.
+Front End Web Development class - Summer 2019 with AlbanyCanCode.
+fictional band site project.
