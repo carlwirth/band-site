@@ -1,0 +1,196 @@
+
+.homepage {
+/* Setting the margin to 0 here allows for future content within child containers to be centered, if necessary. */
+  margin: 0;
+}
+
+/* This will be the parent container for our header. */
+.headerdiv {
+  background-image: linear-gradient(#5477b7 25%, #7face3 75%, #86b4e8 100%);
+  width: 100%;
+  height: 240px;
+}
+
+/* This is the container that will display the picture of the hen. */
+.headerbg {
+  background-color: transparent;
+  background-size: contain;
+  background-position: left;
+  background-repeat: no-repeat;
+  width: inherit;
+  height: inherit;
+}
+
+/* This is the final container that will show the name of your band within the header. */
+.headertext {
+  position: relative;
+  width: inherit;
+  height: inherit;
+}
+
+/* Recall that placing an html element after a class will cause the element within this class to adhere to your attributes. For example, all paragraph (<p>) elements within a <div> with the .headertext class will use the following attributes. */
+.headertext p {
+  bottom: 0;
+  font-size: 85px;
+  color: #fff;
+  position: absolute;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+
+/* Classes used for the navigation bar */
+
+.navibar {
+  /* border:  solid 5px;  */
+  /* background-color: burlywood; */
+  /* padding: 5px; */
+  /* outline: 5px solid coral;  */
+  /* display: block; */
+  display: flex;
+  margin: auto; 
+  border-radius: 5px; 
+  border: 7px solid crimson;  
+  width: 97vw;
+  height: 27px;
+ /* The following attributes will cause the navigation bar to scoll to and stick to the top of the screen. Note that the value for "top" must be 0 so that when it reaches the top of the screen it sticks. */
+  position: -webkit-sticky;
+  position: sticky;
+  top: 2px;
+}
+
+.navibar a {
+  /* outline: orangered 5px; */
+  /* background-color: burlywood; */
+  background-color: #f0fff0;
+  border-right: solid crimson 4px;
+  display: block;
+  float: left;
+  font-size: 16px;
+  width: 19.9%; 
+  height: inherit;
+  text-align: center;
+  text-decoration: none;
+  padding-top: 2px;
+  
+}
+
+.mainblock {
+  background-color: burlywood;
+/* margin: 0 auto; will center this <div> within the parent element (<body>). This is important for layout design. */
+  margin: 0 auto;
+/* Changing the width to 90% of it's parent element is a stylistic choice; it ensures that text and other things contained within a <div> with this class do not extend to the exact edges of the screen. */
+  width: 100%;
+  display: flex; 
+  /* border: 25px; */
+}
+
+.mainblock p {
+  /* border: 12px; */
+  font-size: 22px;
+  margin: 20px;
+
+}
+
+.woodbadge {
+  font-family: Woodbadge;
+  color: sienna;
+  font-size: 40px;
+  text-align: center;
+}
+
+/* .chickenfans {
+  border-radius: 50px;
+  height: 20px;
+  width: 20%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; */
+
+.column-a { 
+  flex: 1;
+  /* border-top: 12px; */
+}
+
+.whiskey-the-goat {
+  width: 70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; 
+}
+
+.column-b { 
+  flex: 1;
+  /* border: 12px; */
+}
+
+.column-b-what-the-cluck {
+  /* border: 3px solid black;  */
+  border-radius: 50px;
+  /* padding: 5px; */
+  width: 70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.column-c { 
+  flex: 1;
+  /* border-top: 20px; */
+}
+
+.column-c-four-eyes {
+  display: block;
+  width: 20%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer {
+  background-color: #5477b7;
+  position: absolute;
+  width: 100%;
+  
+  /* margin: 10px; */
+}
+
+.footer a {
+  margin: 0 8px; 
+}
+
+.footer p {
+  font-size: 18px;
+  color: #fff;
+  margin: 10px;
+}
+
+.chicken-fans {
+  display: block;
+  width: 15%;
+  float: left; 
+  margin-top: 3%;
+  margin-left: 3%;
+  margin-right: 3%; 
+
+}
+
+/* .chicken-fans::after {
+  content: "We love our fans"; 
+  z-index: 3;
+} */
+
+.footermap {
+  display: block;
+  width: 12%;
+  float: right; 
+  margin-top: 3%;
+  margin-right: 3%; 
+  margin-left: 3%;
+  /* margin-bottom: 3%;  */
+  /* bottom: 5%;   */
+  /* right: 3%; */
+}
+
