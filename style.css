@@ -157,6 +157,10 @@
   /* margin: 10px; */
 }
 
+.footer a {
+  margin: 0 8px; 
+}
+
 .footer p {
   font-size: 18px;
   color: #fff;
