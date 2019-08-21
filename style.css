@@ -1,10 +1,11 @@
 
 .homepage {
-/* Setting the margin to 0 here allows for future content within child containers to be centered, if necessary. */
+/* Setting the margin to 0 here allows for future content within child containers 
+    to be centered, if necessary. */
   margin: 0;
 }
 
-/* This will be the parent container for our header. */
+/* This will be the parent container for my header. */
 .headerdiv {
   background-image: linear-gradient(#5477b7 25%, #7face3 75%, #86b4e8 100%);
   width: 100%;
@@ -21,7 +22,7 @@
   height: inherit;
 }
 
-/* This is the final container that will show the name of your band within the header. */
+/* This is the final container that will show the name of the band within the header. */
 .headertext {
   position: relative;
   width: inherit;
@@ -89,7 +90,8 @@
 
 .mainblock p {
   /* border: 12px; */
-  font-size: 22px;
+  font-size: 32px; 
+  font-style: italic;
   margin: 20px;
 
 }
@@ -97,7 +99,7 @@
 .woodbadge {
   font-family: Woodbadge;
   color: sienna;
-  font-size: 40px;
+  font-size: 46px;
   text-align: center;
 }
 
@@ -112,6 +114,9 @@
 .column-a { 
   flex: 1;
   /* border-top: 12px; */
+font-family: 'Indie Flower', cursive;
+/* font-family: 'Dancing Script', cursive; */
+/* font-family: 'Satisfy', cursive; */
 }
 
 .whiskey-the-goat {
@@ -124,6 +129,13 @@
 .column-b { 
   flex: 1;
   /* border: 12px; */
+  /* font-family: 'Indie Flower', cursive; */
+  /* font-family: 'Dancing Script', cursive; */
+  /* font-family: 'Satisfy', cursive;   */
+  /* font-family: 'Courgette', cursive; */
+  /* font-family: 'Caveat', cursive; */
+  font-family: 'Great Vibes', cursive;
+
 }
 
 .column-b-what-the-cluck {
@@ -139,6 +151,13 @@
 .column-c { 
   flex: 1;
   /* border-top: 20px; */
+  /* font-family: 'Indie Flower', cursive; */
+  /* font-family: 'Dancing Script', cursive; */
+  /* font-family: 'Satisfy', cursive; */
+  /* font-family: 'Courgette', cursive; */
+  /* font-family: 'Caveat', cursive; */
+    font-family: 'Pacifico', cursive;
+
 }
 
 .column-c-four-eyes {
