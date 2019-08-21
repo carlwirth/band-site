@@ -52,9 +52,9 @@
   display: flex;
   margin: auto; 
   border-radius: 5px; 
-  border: 7px solid crimson;  
+  border: 8px solid crimson;  
   width: 97vw;
-  height: 27px;
+  height: 30px;
  /* The following attributes will cause the navigation bar to scoll to and stick to the top of the screen. Note that the value for "top" must be 0 so that when it reaches the top of the screen it sticks. */
   position: -webkit-sticky;
   position: sticky;
@@ -65,10 +65,10 @@
   /* outline: orangered 5px; */
   /* background-color: burlywood; */
   background-color: #f0fff0;
-  border-right: solid crimson 4px;
+  border-right: solid crimson 8px;
   display: block;
   float: left;
-  font-size: 16px;
+  font-size: 24px;
   width: 19.9%; 
   height: inherit;
   text-align: center;
