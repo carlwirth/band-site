@@ -168,19 +168,12 @@
 }
 
 .chicken-fans {
+  border-radius: 50px;
+  width: 70%;
   display: block;
-  width: 15%;
-  float: left; 
-  margin-top: 3%;
-  margin-left: 3%;
-  margin-right: 3%; 
-
+  margin-left: auto;
+  margin-right: auto;
 }
-
-/* .chicken-fans::after {
-  content: "We love our fans"; 
-  z-index: 3;
-} */
 
 .footermap {
   display: block;
