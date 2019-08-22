@@ -79,7 +79,8 @@
 }
 
 .mainblock {
-  background-color: burlywood;
+  background-color: burlywood; 
+  /* font-family: cursive; */
 /* margin: 0 auto; will center this <div> within the parent element (<body>). This is important for layout design. */
   margin: 0 auto;
 /* Changing the width to 90% of it's parent element is a stylistic choice; it ensures that text and other things contained within a <div> with this class do not extend to the exact edges of the screen. */
@@ -90,6 +91,7 @@
 
 .mainblock p {
   /* border: 12px; */
+  /* font-family: 'Courgette', cursive; */
   font-size: 28px; 
   font-style: italic;
   margin: 20px;
