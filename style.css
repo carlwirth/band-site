@@ -110,6 +110,13 @@ font-family: 'Indie Flower', cursive;
   margin-right: auto; 
 }
 
+.diner-omelette {
+  width: 70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .column-b { 
   flex: 1;
   /* border: 12px; */
@@ -148,7 +155,6 @@ font-family: 'Indie Flower', cursive;
   margin-left: auto;
   margin-right: auto; 
 } 
-
 
 .column-c { 
   flex: 1;
