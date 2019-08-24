@@ -1,18 +1,14 @@
 
 .homepage {
-/* Setting the margin to 0 here allows for future content within child containers 
-    to be centered, if necessary. */
   margin: 0;
 }
 
-/* This will be the parent container for my header. */
 .headerdiv {
   background-image: linear-gradient(#5477b7 25%, #7face3 75%, #86b4e8 100%);
   width: 100%;
   height: 240px;
 }
 
-/* This is the container that will display the picture of the hen. */
 .headerbg {
   background-color: transparent;
   background-size: contain;
@@ -22,14 +18,12 @@
   height: inherit;
 }
 
-/* This is the final container that will show the name of the band within the header. */
 .headertext {
   position: relative;
   width: inherit;
   height: inherit;
 }
 
-/* Recall that placing an html element after a class will cause the element within this class to adhere to your attributes. For example, all paragraph (<p>) elements within a <div> with the .headertext class will use the following attributes. */
 .headertext p {
   bottom: 0;
   font-size: 85px;
@@ -42,7 +36,6 @@
 }
 
 
-/* Classes used for the navigation bar */
 
 .navibar {
   /* border:  solid 5px;  */
@@ -56,7 +49,6 @@
   border: 8px solid crimson;  
   width: 97vw;
   height: 30px;
- /* The following attributes will cause the navigation bar to scoll to and stick to the top of the screen. Note that the value for "top" must be 0 so that when it reaches the top of the screen it sticks. */
   position: -webkit-sticky;
   position: sticky;
   top: 2px;
@@ -81,9 +73,7 @@
 .mainblock {
   background-color: burlywood; 
   /* font-family: cursive; */
-/* margin: 0 auto; will center this <div> within the parent element (<body>). This is important for layout design. */
   margin: 0 auto;
-/* Changing the width to 90% of it's parent element is a stylistic choice; it ensures that text and other things contained within a <div> with this class do not extend to the exact edges of the screen. */
   width: 100%;
   display: flex; 
   /* border: 25px; */
@@ -104,14 +94,6 @@
   color: sienna;
   text-align: initial;
 }
-
-/* .chickenfans {
-  border-radius: 50px;
-  height: 20px;
-  width: 20%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto; */
 
 .column-a { 
   flex: 1;
@@ -138,6 +120,15 @@ font-family: 'Indie Flower', cursive;
   /* font-family: 'Caveat', cursive; */
   /* font-family: 'Great Vibes', cursive; */
 
+}
+
+.kate-links {
+  color: sienna ; 
+} 
+
+.kate-links:hover {
+  color: #5b845c; 
+  transition: 0.3s; 
 }
 
 .column-b-what-the-cluck {
@@ -182,6 +173,20 @@ font-family: 'Indie Flower', cursive;
 .column-c-four-eyes {
   display: block;
   width: 25%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+} 
+
+.column-c-four-eyes:hover {
+  transform: scale(-1, 1); 
+  -o-transform: scale(-1, 1); 
+  -webkit-transform: scale(-1, 1); 
+}
+
+.gregory {
+  border-radius: 50px;
+  width: 40%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -231,6 +236,10 @@ font-family: 'Indie Flower', cursive;
   margin-right: 3%; 
   margin-left: 3%; 
 }
+
+
+
+
 
 /* .chicken-fans2 {
   /* flex-direction: row;   */
