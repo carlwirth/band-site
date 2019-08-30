@@ -1,4 +1,5 @@
-# beehivechicken2
+# band-site 
 
-This Carl Wirth's course term project for FEWD class, summer 2019. 
-FEWD - Front End Web Design 
+Front End Web Development class - Summer 2019  
+Sponsored by: AlbanyCanCode.  
+This is an assigned project to create a web page for a fictional band.  
